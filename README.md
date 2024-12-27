@@ -1,4 +1,4 @@
-# ANALYSIS-OF-MOSFET-PERFORMANCE-BY-CHANGING-CHANNEL-LENGTH
+![image](https://github.com/user-attachments/assets/337019c0-f2db-4600-ad02-7dda0411d08b)# ANALYSIS-OF-MOSFET-PERFORMANCE-BY-CHANGING-CHANNEL-LENGTH
 The enhancement of Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET) performance through varying channel length is investigated, employing NanoHUB software. NanoHUB provides a platform for simulating and studying nanoelectronic devices, enabling researchers to explore the effects of different channel lengths on MOSFET characteristics like speed, drive current, and leakage currents. Shortening the channel length typically improves performance metrics relevant to high-speed applications, albeit at the cost of increased leakage and fabrication complexity. Conversely, lengthening the channel mitigates these drawbacks but reduces speed and drive current. Researchers utilize NanoHUB for advanced simulations to optimize MOSFET performance by fine-tuning channel length and employing techniques such as channel engineering and high-k dielectrics, highlighting NanoHUB's pivotal role in advancing MOSFET technology through virtual experimentation and optimization strategies.
 
 
@@ -8,7 +8,15 @@ The enhancement of Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET) pe
 
 
 
-# Methodology/Flow chart: 
+ 
+
+# Flow Chart of a typical MOSFET Simulation:
+![image](https://github.com/user-attachments/assets/f077366d-dab9-4cd4-a7a8-cccebe5f7aa5)
+
+# Block diagram for the fabrication of MOSFET:
+![image](https://github.com/user-attachments/assets/eec0c49b-96f0-4b5f-b38f-c7757f4073b3)
+
+# Methodology/Flow chart:
 
 1. Material Selection:
 ●	Literature Review: Conduct a comprehensive review of existing dielectric materials, focusing on high-k dielectrics like HfO2 and substrate materials such as GaAs and 2D materials (h-BN, TMDs).
@@ -56,6 +64,23 @@ Run the Simulation: Solve the model for each combination of Vg and Vd to obtain 
 # Results & Discussions:
 
 We analyzed the performance of MOSFETs with hafnium oxide (HfO₂) as the gate dielectric and gallium arsenide (GaAs) as the substrate, varying the channel length from 100 nm to 200 nm and thereby giving the gate voltage (VG) from 0V to 5V. The objective was to evaluate the impact of these changes on the device's drain current (ID).
+
+
+# GaAs with HfO2 fabricated MOSFET with inputs:
+![image](https://github.com/user-attachments/assets/9e78b548-0b67-49a4-8543-bd406871303f)
+
+# Simulation graphs:
+
+ Id –Vd graph for channel length 100nm for MOSFET simulation
+![image](https://github.com/user-attachments/assets/48a46683-7674-4d0b-8e77-e75144c90646)
+
+
+ Id – Vd graph for channel length 150nm for MOSFET simulation
+![image](https://github.com/user-attachments/assets/5b082296-d026-4a0c-b092-8509cb533aca)
+
+Id – Vd graph for channel length 200nm for MOSFET simulation
+![image](https://github.com/user-attachments/assets/5275a4ce-c339-4711-a609-f47ba656cff3)
+
 
 # Results:
 
